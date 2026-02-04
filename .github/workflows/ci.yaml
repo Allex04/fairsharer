@@ -31,5 +31,6 @@ jobs:
         run: ruff check .
 
       - name: Test with pytest
+        shell: bash
         run: |
          PYTHONPATH=. pytest tests
