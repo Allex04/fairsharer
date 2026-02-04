@@ -1,4 +1,4 @@
-name: Our first python CI
+name: Python CI – Fairsharer
 
 on:
   push:
